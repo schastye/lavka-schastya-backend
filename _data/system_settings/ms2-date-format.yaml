@@ -1,0 +1,4 @@
+key: ms2_date_format
+value: '%d.%m.%y <span class="gray">%H:%M</span>'
+namespace: minishop2
+area: ms2_order

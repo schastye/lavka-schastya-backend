@@ -1,0 +1,5 @@
+key: ms2_weight_format_no_zeros
+value: '1'
+xtype: combo-boolean
+namespace: minishop2
+area: ms2_product

@@ -1,0 +1,5 @@
+key: ms2_order_grid_fields
+value: 'id,num,customer,status,cost,weight,delivery,payment,createdon,updatedon,comment'
+xtype: textarea
+namespace: minishop2
+area: ms2_order

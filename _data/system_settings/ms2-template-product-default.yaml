@@ -1,0 +1,4 @@
+key: ms2_template_product_default
+xtype: modx-combo-template
+namespace: minishop2
+area: ms2_product

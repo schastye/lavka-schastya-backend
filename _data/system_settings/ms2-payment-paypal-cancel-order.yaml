@@ -1,0 +1,4 @@
+key: ms2_payment_paypal_cancel_order
+xtype: combo-boolean
+namespace: minishop2
+area: ms2_payment

@@ -1,0 +1,4 @@
+key: ms2_payment_paypal_pwd
+xtype: text-password
+namespace: minishop2
+area: ms2_payment

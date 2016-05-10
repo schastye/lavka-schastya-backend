@@ -1,0 +1,6 @@
+id: 1
+key: metric__google
+label: 'Google Analytics'
+xtype: textarea
+description: 'Код счётчика Google Analytics'
+group: 2

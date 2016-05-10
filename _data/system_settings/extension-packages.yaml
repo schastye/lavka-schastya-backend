@@ -1,0 +1,3 @@
+key: extension_packages
+value: '[{"minishop2":{"path":"[[++core_path]]components/minishop2/model/"}}]'
+area: system

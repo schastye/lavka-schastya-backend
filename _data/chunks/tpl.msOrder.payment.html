@@ -1,0 +1,21 @@
+id: 19
+source: 1
+name: tpl.msOrder.payment
+description: ''
+category: miniShop2
+properties: null
+static: 1
+static_file: core/components/minishop2/elements/chunks/chunk.ms_order_payment.tpl
+
+-----
+
+<div class="checkbox">
+	<label class="payment input-parent">
+		<input type="radio" name="payment" value="[[+id]]" id="payment_[[+id]]" [[+checked]]>
+		[[+logo]]
+		[[+description]]
+	</label>
+</div>
+<!--minishop2_logo <img src="[[+logo]]" />-->
+<!--minishop2_!logo [[+name]]-->
+<!--minishop2_description <p><small>[[+description]]</small></p>-->

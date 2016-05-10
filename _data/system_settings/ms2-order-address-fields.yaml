@@ -1,0 +1,5 @@
+key: ms2_order_address_fields
+value: 'receiver,phone,index,country,region,city,metro,street,building,room,comment'
+xtype: textarea
+namespace: minishop2
+area: ms2_order

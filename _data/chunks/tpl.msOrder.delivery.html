@@ -1,0 +1,20 @@
+id: 20
+source: 1
+name: tpl.msOrder.delivery
+description: ''
+category: miniShop2
+properties: null
+static: 1
+static_file: core/components/minishop2/elements/chunks/chunk.ms_order_delivery.tpl
+
+-----
+
+<div class="checkbox">
+	<label class="delivery input-parent">
+		<input type="radio" name="delivery" value="[[+id]]" id="delivery_[[+id]]" data-payments='[[+payments]]' [[+checked]]>
+		[[+logo:default=`[[+name]]`]] <!--&mdash; <i>[[+price]] [[%ms2_frontend_currency]]</i>-->
+		[[+description]]
+	</label>
+</div>
+<!--minishop2_logo <img src="[[+logo]]" />-->
+<!--minishop2_description <p><small>[[+description]]</small></p>-->

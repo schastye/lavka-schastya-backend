@@ -1,0 +1,4 @@
+key: ms2_payment_paypal_success_id
+xtype: numberfield
+namespace: minishop2
+area: ms2_payment

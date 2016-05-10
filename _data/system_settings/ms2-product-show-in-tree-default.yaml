@@ -1,0 +1,4 @@
+key: ms2_product_show_in_tree_default
+xtype: combo-boolean
+namespace: minishop2
+area: ms2_product

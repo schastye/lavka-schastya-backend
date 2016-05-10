@@ -1,0 +1,4 @@
+key: ms2_order_handler_class
+value: msOrderHandler
+namespace: minishop2
+area: ms2_order

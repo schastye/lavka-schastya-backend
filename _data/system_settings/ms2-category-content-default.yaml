@@ -1,0 +1,4 @@
+key: ms2_category_content_default
+xtype: textarea
+namespace: minishop2
+area: ms2_category

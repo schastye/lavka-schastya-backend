@@ -1,0 +1,5 @@
+key: ms2_product_source_default
+value: '2'
+xtype: modx-combo-source
+namespace: minishop2
+area: ms2_product

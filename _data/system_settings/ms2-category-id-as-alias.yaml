@@ -1,0 +1,4 @@
+key: ms2_category_id_as_alias
+xtype: combo-boolean
+namespace: minishop2
+area: ms2_category

@@ -1,0 +1,13 @@
+id: 2
+name: Оплачен
+description: null
+color: '008000'
+email_user: 1
+email_manager: 1
+subject_user: '[[%ms2_email_subject_paid_user]]'
+subject_manager: '[[%ms2_email_subject_paid_manager]]'
+body_user: 14
+body_manager: 15
+fixed: 1
+rank: 1
+editable: 0

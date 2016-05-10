@@ -1,0 +1,6 @@
+id: 2
+key: metric__yandex
+label: Яндекс.Метрика
+xtype: textarea
+description: 'Код счётчика Яндекс.Метрики'
+group: 2

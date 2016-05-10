@@ -1,0 +1,5 @@
+key: ms2_product_tab_links
+value: '1'
+xtype: combo-boolean
+namespace: minishop2
+area: ms2_product

@@ -1,0 +1,4 @@
+key: ms2_price_format
+value: '[2, ".", " "]'
+namespace: minishop2
+area: ms2_product

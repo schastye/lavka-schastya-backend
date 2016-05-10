@@ -1,0 +1,5 @@
+key: ms2_order_product_fields
+value: 'name,product_article,weight,price,count,cost'
+xtype: textarea
+namespace: minishop2
+area: ms2_order

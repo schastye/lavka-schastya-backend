@@ -1,0 +1,11 @@
+id: 3
+name: Отправлен
+description: null
+color: '003366'
+email_user: 1
+subject_user: '[[%ms2_email_subject_sent_user]]'
+body_user: 16
+final: 1
+fixed: 1
+rank: 2
+editable: 0
