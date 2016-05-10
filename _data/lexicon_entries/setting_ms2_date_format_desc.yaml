@@ -3,5 +3,3 @@ name: setting_ms2_date_format_desc
 value: 'Укажите формат дат, используя синтаксис php функции strftime(). По умолчанию формат "%d.%m.%y %H:%M".'
 namespace: minishop2
 language: ru
-createdon: '2016-05-10 12:00:14'
-editedon: '0000-00-00 00:00:00'

@@ -142,6 +142,9 @@ data:
   lexicon_entries:
     class: modLexiconEntry
     primary: name
+    exclude_keys:
+      - createdon
+      - editedon
 
 # Packages list
 

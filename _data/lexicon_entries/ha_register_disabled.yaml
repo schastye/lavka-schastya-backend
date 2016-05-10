@@ -2,5 +2,3 @@ id: 2
 name: ha_register_disabled
 value: 'You must first bind this social network to your account!'
 namespace: hybridauth
-createdon: '2016-05-10 11:42:32'
-editedon: '0000-00-00 00:00:00'
