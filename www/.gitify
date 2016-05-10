@@ -33,8 +33,7 @@ data:
       - modCategoryClosure
   templates:
     class: modTemplate
-    primary:
-      - id
+    primary: templatename
     extension: .html
   chunks:
     class: modChunk
@@ -150,11 +149,11 @@ data:
 
   clientconfig_setting:
     class: cgSetting
-    primary: label
+    primary: key
     package: clientconfig
   clientconfig_group:
     class: cgGroup
-    primary: id
+    primary: label
     package: clientconfig
 
   quickstartbuttons_sets:
@@ -212,8 +211,7 @@ data:
     primary: id
   ms2_order_statuses:
     class: msOrderStatus
-    primary:
-      - id
+    primary: name
   ms2_order_logs:
     class: msOrderLog
     primary: id

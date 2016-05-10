@@ -1,4 +1,4 @@
-key: friendly_urls
-value: '0'
+key: use_alias_path
+value: '1'
 xtype: combo-boolean
 area: furls
