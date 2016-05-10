@@ -154,6 +154,7 @@ data:
   clientconfig_group:
     class: cgGroup
     primary: label
+    package: clientconfig
 
   quickstartbuttons_sets:
     class: qsbSet

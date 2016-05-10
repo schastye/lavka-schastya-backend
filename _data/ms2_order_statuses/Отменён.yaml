@@ -1,0 +1,11 @@
+id: 4
+name: Отменён
+description: null
+color: '800000'
+email_user: 1
+subject_user: '[[%ms2_email_subject_cancelled_user]]'
+body_user: 17
+final: 1
+fixed: 1
+rank: 3
+editable: 0

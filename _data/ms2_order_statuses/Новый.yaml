@@ -1,0 +1,11 @@
+id: 1
+name: Новый
+description: null
+email_user: 1
+email_manager: 1
+subject_user: '[[%ms2_email_subject_new_user]]'
+subject_manager: '[[%ms2_email_subject_new_manager]]'
+body_user: 12
+body_manager: 13
+fixed: 1
+editable: 0
