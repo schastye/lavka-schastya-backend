@@ -140,7 +140,7 @@ data:
       - dashboard
       - widget
 
-# Packages
+# Packages list
 
   ar_rules:
     class: arRule
