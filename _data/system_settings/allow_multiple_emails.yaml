@@ -1,4 +1,4 @@
 key: allow_multiple_emails
-value: '1'
+value: '0'
 xtype: combo-boolean
 area: authentication

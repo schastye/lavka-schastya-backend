@@ -1,0 +1,15 @@
+id: 39
+source: 1
+name: tpl.HybridAuth.login
+description: 'Chunk for guest'
+category: HybridAuth
+properties: null
+static_file: core/components/hybridauth/elements/chunks/chunk.login.tpl
+
+-----
+
+[[%ha.login_intro]]
+<br/>
+[[+providers]]
+
+[[+error:notempty=`<div class="alert alert-block alert-error">[[+error]]</div>`]]

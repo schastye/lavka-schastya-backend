@@ -1,0 +1,5 @@
+key: mse2_index_min_words_length
+value: '3'
+xtype: numberfield
+namespace: msearch2
+area: mse2_index

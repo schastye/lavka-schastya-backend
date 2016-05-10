@@ -1,0 +1,4 @@
+key: office_sanitize_pcre
+value: '/[^-_0-9\p{L}\s@.,:\/\+()]+/iu'
+namespace: office
+area: office_main

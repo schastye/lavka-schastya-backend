@@ -1,0 +1,15 @@
+id: 33
+source: 1
+name: tpl.Office.remote.logout
+description: ''
+category: Office
+properties: null
+static_file: core/components/office/elements/chunks/chunk.remote.logout.tpl
+
+-----
+
+<img src="[[+photo:default=`[[+gravatar]]?s=100`]]" alt="[[+fullname]]" title="[[+fullname]]" class="office-avatar" width="100" />
+
+<span class="office-remote-info">
+	[[%office_auth_welcome]] <b>[[+username]]</b> ([[+fullname]])! <a href="[[~[[*id]]]]?action=remote/logout" rel="nofollow">[[%office_auth_logout]]</a>
+</span>

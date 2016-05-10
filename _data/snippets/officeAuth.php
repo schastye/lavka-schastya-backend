@@ -1,0 +1,19 @@
+id: 29
+source: 1
+name: officeAuth
+category: Office
+properties: 'a:15:{s:8:"tplLogin";a:7:{s:4:"name";s:8:"tplLogin";s:4:"desc";s:20:"office_prop_tplLogin";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";s:21:"tpl.Office.auth.login";s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:9:"tplLogout";a:7:{s:4:"name";s:9:"tplLogout";s:4:"desc";s:21:"office_prop_tplLogout";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";s:22:"tpl.Office.auth.logout";s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:11:"tplActivate";a:7:{s:4:"name";s:11:"tplActivate";s:4:"desc";s:23:"office_prop_tplActivate";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";s:24:"tpl.Office.auth.activate";s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:11:"tplRegister";a:7:{s:4:"name";s:11:"tplRegister";s:4:"desc";s:23:"office_prop_tplRegister";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";s:24:"tpl.Office.auth.register";s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:7:"linkTTL";a:7:{s:4:"name";s:7:"linkTTL";s:4:"desc";s:19:"office_prop_linkTTL";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";i:600;s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:6:"groups";a:7:{s:4:"name";s:6:"groups";s:4:"desc";s:18:"office_prop_groups";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";s:0:"";s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:10:"rememberme";a:7:{s:4:"name";s:10:"rememberme";s:4:"desc";s:22:"office_prop_rememberme";s:4:"type";s:13:"combo-boolean";s:7:"options";a:0:{}s:5:"value";b:1;s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:12:"loginContext";a:7:{s:4:"name";s:12:"loginContext";s:4:"desc";s:24:"office_prop_loginContext";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";s:0:"";s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:11:"addContexts";a:7:{s:4:"name";s:11:"addContexts";s:4:"desc";s:23:"office_prop_addContexts";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";s:0:"";s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:15:"loginResourceId";a:7:{s:4:"name";s:15:"loginResourceId";s:4:"desc";s:27:"office_prop_loginResourceId";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";i:0;s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:16:"logoutResourceId";a:7:{s:4:"name";s:16:"logoutResourceId";s:4:"desc";s:28:"office_prop_logoutResourceId";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";i:0;s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:10:"HybridAuth";a:7:{s:4:"name";s:10:"HybridAuth";s:4:"desc";s:22:"office_prop_HybridAuth";s:4:"type";s:13:"combo-boolean";s:7:"options";a:0:{}s:5:"value";b:1;s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:9:"providers";a:7:{s:4:"name";s:9:"providers";s:4:"desc";s:21:"office_prop_providers";s:4:"type";s:0:"";s:7:"options";a:0:{}s:5:"value";s:0:"";s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:11:"providerTpl";a:7:{s:4:"name";s:11:"providerTpl";s:4:"desc";s:23:"office_prop_providerTpl";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";s:23:"tpl.HybridAuth.provider";s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}s:17:"activeProviderTpl";a:7:{s:4:"name";s:17:"activeProviderTpl";s:4:"desc";s:29:"office_prop_activeProviderTpl";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";s:30:"tpl.HybridAuth.provider.active";s:7:"lexicon";s:17:"office:properties";s:4:"area";s:0:"";}}'
+static_file: core/components/office/elements/snippets/snippet.office.auth.php
+
+-----
+
+/** @var array $scriptProperties */
+$scriptProperties['action'] = 'Auth';
+
+/** @var modSnippet $snippet */
+if ($snippet = $modx->getObject('modSnippet', array('name' => 'Office'))) {
+	$snippet->_cacheable = false;
+	$snippet->_processed = false;
+
+	return $snippet->process($scriptProperties);
+}

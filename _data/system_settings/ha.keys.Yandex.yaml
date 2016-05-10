@@ -1,0 +1,4 @@
+key: ha.keys.Yandex
+value: '{"id":"12345","secret":"12345"}'
+namespace: hybridauth
+area: ha.keys

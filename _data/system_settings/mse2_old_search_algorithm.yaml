@@ -1,0 +1,4 @@
+key: mse2_old_search_algorithm
+xtype: combo-boolean
+namespace: msearch2
+area: mse2_search

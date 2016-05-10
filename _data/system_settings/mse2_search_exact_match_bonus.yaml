@@ -1,0 +1,5 @@
+key: mse2_search_exact_match_bonus
+value: '10'
+xtype: numberfield
+namespace: msearch2
+area: mse2_search

@@ -1,0 +1,4 @@
+key: office_profile_required_fields
+value: 'email,fullname'
+namespace: office
+area: office_profile

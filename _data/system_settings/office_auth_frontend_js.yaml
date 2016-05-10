@@ -1,0 +1,4 @@
+key: office_auth_frontend_js
+value: '[[++assets_url]]components/office/js/auth/default.js'
+namespace: office
+area: office_auth

@@ -1,0 +1,4 @@
+key: mse2_frontend_css
+value: '[[+cssUrl]]web/default.css'
+namespace: msearch2
+area: mse2_main

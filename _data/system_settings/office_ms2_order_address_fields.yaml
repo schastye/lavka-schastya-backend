@@ -1,0 +1,5 @@
+key: office_ms2_order_address_fields
+value: 'receiver,phone,index,country,region,city,metro,street,building,room,comment'
+xtype: textarea
+namespace: office
+area: office_ms2

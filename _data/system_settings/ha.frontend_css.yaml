@@ -1,0 +1,4 @@
+key: ha.frontend_css
+value: '[[+assetsUrl]]css/web/default.css'
+namespace: hybridauth
+area: ha.main

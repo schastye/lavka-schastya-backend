@@ -1,0 +1,4 @@
+key: office_frontend_css
+value: '[[++assets_url]]components/office/css/main/default.css'
+namespace: office
+area: office_main

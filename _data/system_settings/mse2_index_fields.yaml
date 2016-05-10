@@ -1,0 +1,5 @@
+key: mse2_index_fields
+value: 'pagetitle:5,longtitle:3,content:1,description:1,introtext:1'
+xtype: textarea
+namespace: msearch2
+area: mse2_index

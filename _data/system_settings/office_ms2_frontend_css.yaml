@@ -1,0 +1,4 @@
+key: office_ms2_frontend_css
+value: '[[++assets_url]]components/office/css/minishop2/default.css'
+namespace: office
+area: office_ms2

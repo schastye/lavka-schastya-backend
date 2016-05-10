@@ -1,0 +1,4 @@
+key: ha.register_users
+xtype: combo-boolean
+namespace: hybridauth
+area: ha.main
