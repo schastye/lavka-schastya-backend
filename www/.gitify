@@ -139,6 +139,9 @@ data:
     primary:
       - dashboard
       - widget
+  lexicon_entries:
+    class: modLexiconEntry
+    primary: name
 
 # Packages list
 
