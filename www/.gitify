@@ -1,0 +1,267 @@
+data_directory: ../_data/
+backup_directory: ../_backup/
+data:
+  contexts:
+    class: modContext
+    primary: key
+  context_settings:
+    class: modContextSetting
+    primary:
+      - context_key
+      - key
+    exclude_keys:
+      - editedon
+  template_variables:
+    class: modTemplateVar
+    primary: name
+  template_variables_access:
+    class: modTemplateVarTemplate
+    primary:
+      - tmplvarid
+      - templateid
+  content:
+    type: content
+    exclude_keys:
+      - editedby
+      - editedon
+    truncate_on_force:
+      - modTemplateVarResource
+  categories:
+    class: modCategory
+    primary: category
+    truncate_on_force:
+      - modCategoryClosure
+  templates:
+    class: modTemplate
+    primary: templatename
+    extension: .html
+  chunks:
+    class: modChunk
+    primary: name
+    extension: .html
+  snippets:
+    class: modSnippet
+    primary: name
+    extension: .php
+  plugins:
+    class: modPlugin
+    primary: name
+    extension: .php
+  plugin_events:
+    class: modPluginEvent
+    primary:
+      - pluginid
+      - event
+
+  users:
+    class: modUser
+    primary: id
+  user_profiles:
+    class: modUserProfile
+    primary: internalKey
+    exclude_keys:
+      - sessionid
+      - thislogin
+      - lastlogin
+      - logincount
+      - failedloginattempts
+  user_groups:
+    class: modUserGroup
+    primary: id
+  user_group_members:
+    class: modUserGroupMember
+    primary: id
+  user_group_roles:
+    class: modUserGroupRole
+    primary: id
+
+  events:
+    class: modEvent
+    primary: name
+  namespaces:
+    class: modNamespace
+    primary: name
+  system_settings:
+    class: modSystemSetting
+    primary: key
+    exclude_keys:
+      - editedon
+    where:
+      - 'key:NOT IN':
+        - 'mail_smtp_hosts'
+        - 'mail_smtp_user'
+        - 'mail_smtp_pass'
+        - 'mail_smtp_port'
+        - 'mail_smtp_prefix'
+        - 'mail_use_smtp'
+  extension_packages:
+    class: modExtensionPackage
+    primary: namespace
+    exclude_keys:
+      - created_at
+      - updated_at
+  fc_sets:
+    class: modFormCustomizationSet
+    primary: id
+  fc_profiles:
+    class: modFormCustomizationProfile
+    primary: id
+  fc_profile_usergroups:
+    class: modFormCustomizationProfileUserGroup
+    primary:
+      - usergroup
+      - profile
+  fc_action_dom:
+    class: modActionDom
+    primary:
+      - set
+      - name
+  mediasources:
+    class: modMediaSource
+    primary: id
+  mediasource_elements:
+    class: sources.modMediaSourceElement
+    primary:
+      - source
+      - object_class
+      - object
+      - context_key
+  dashboards:
+    class: modDashboard
+    primary:
+      - id
+      - name
+  dashboard_widgets:
+    class: modDashboardWidget
+    primary: id
+  dashboard_widget_placement:
+    class: modDashboardWidgetPlacement
+    primary:
+      - dashboard
+      - widget
+
+# Packages
+
+  ar_rules:
+    class: arRule
+    primary: id
+    package: autoredirector
+
+  clientconfig_setting:
+    class: cgSetting
+    primary: label
+    package: clientconfig
+  clientconfig_group:
+    class: cgGroup
+    primary: label
+
+  quickstartbuttons_sets:
+    class: qsbSet
+    primary: name
+    package: quickstartbuttons
+  quickstartbuttons_set_usergroups:
+    class: qsbSetUserGroup
+    primary: 
+      - usergoup
+      - set
+  quickstartbuttons_icons:
+    class: qsbIcon
+    primary: name
+  quickstartbuttons_buttons:
+    class: qsbButton
+    primary: text
+
+  formit_forms:
+    class: FormItForm
+    primary: id
+    package: formit
+
+  ms2_products:
+    class: msProductData
+    primary: id
+    package: minishop2
+  ms2_vendors:
+    class: msVendor
+    primary: name
+  ms2_product_categories:
+    class: msCategoryMember
+    primary: 
+      - product_id
+      - category_id
+  ms2_product_options:
+    class: msProductOption
+    primary: id
+  ms2_product_files:
+    class: msProductFile
+    primary: id
+  ms2_deliveries:
+    class: msDelivery
+    primary: name
+  ms2_payments:
+    class: msPayment
+    primary: name
+  ms2_delivery_payments:
+    class: msDeliveryMember
+    primary: 
+      - delivery_id
+      - payment_id
+  ms2_orders:
+    class: msOrder
+    primary: id
+  ms2_order_statuses:
+    class: msOrderStatus
+    primary: name
+  ms2_order_logs:
+    class: msOrderLog
+    primary: id
+  ms2_order_addresses:
+    class: msOrderAddress
+    primary: id
+  ms2_order_products:
+    class: msOrderProduct
+    primary: id
+  ms2_links:
+    class: msLink
+    primary: id
+  ms2_product_links:
+    class: msProductLink
+    primary: 
+      - link
+      - master
+      - slave
+  ms2_customer_profiles:
+    class: msCustomerProfile
+    primary: id
+  ms2_options:
+    class: msOption
+    primary: id
+  ms2_category_options:
+    class: msCategoryOption
+    primary: 
+      - option_id
+      - category_id
+
+packages:
+  modx.com:
+    service_url: http://rest.modx.com/extras/
+    description: Официальный репозиторий MODX
+    packages:
+      - formit
+  modmore.com:
+    service_url: https://rest.modmore.com/
+    description: Репозиторий дополонений modmore.com
+    credential_file: '../.modmore-com.key'
+    packages:
+      - clientconfig
+      - quickstartbuttons
+  modstore.pro:
+    service_url: https://modstore.pro/extras/
+    description: Репозиторий дополонений modstore.pro
+    credential_file: '../.modstore-pro.key'
+    packages:
+      - pdotools-2.4.0-pl
+      - minishop2-2.4.0-beta1
+      - shopstats-1.0.0-beta
+      - autoredirector-0.1.0-beta
+      - ytranslit-1.2.0-pl
+      - debugparser-1.1.0-pl
