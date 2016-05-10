@@ -158,7 +158,7 @@ data:
 
   quickstartbuttons_sets:
     class: qsbSet
-    primary: name
+    primary: id
     package: quickstartbuttons
   quickstartbuttons_set_usergroups:
     class: qsbSetUserGroup
@@ -170,7 +170,7 @@ data:
     primary: name
   quickstartbuttons_buttons:
     class: qsbButton
-    primary: text
+    primary: id
 
   formit_forms:
     class: FormItForm
