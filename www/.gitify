@@ -197,7 +197,7 @@ data:
       - category_id
   ms2_product_options:
     class: msProductOption
-    primary: id
+    primary: product_id
   ms2_product_files:
     class: msProductFile
     primary: id
