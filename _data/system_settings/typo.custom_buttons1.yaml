@@ -1,0 +1,4 @@
+key: typo.custom_buttons1
+value: 'undo,redo,selectall,separator,typograf,separator,pastetext,pasteword,separator,search,replace,separator,nonbreaking,hr,charmap,separator,image,modxlink,unlink,anchor,media,separator,cleanup,removeformat,separator,fullscreen,print,code,help'
+namespace: typomce
+area: custom-buttons

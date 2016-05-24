@@ -1,3 +1,4 @@
 key: which_element_editor
+value: TypoMCE
 xtype: modx-combo-rte
 area: editor

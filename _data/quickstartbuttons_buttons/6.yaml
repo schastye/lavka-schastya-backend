@@ -1,0 +1,12 @@
+id: 6
+set: 1
+icon: 77
+icon_file: null
+text: 'Журнал ошибок'
+description: 'Рекомендуется к ознакомлению опытным пользователям'
+action_props: ''
+handler: null
+link: '?a=system/event'
+ranking: 5
+iconcls: fa-bug
+iconpath: ''

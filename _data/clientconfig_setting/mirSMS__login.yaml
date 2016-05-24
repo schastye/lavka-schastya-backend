@@ -1,0 +1,6 @@
+id: 4
+key: mirSMS__login
+label: Логин
+xtype: textfield
+description: ''
+group: 4

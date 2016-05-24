@@ -1,0 +1,5 @@
+key: typo.convert_fonts_to_spans
+value: '1'
+xtype: combo-boolean
+namespace: typomce
+area: cleanup-output

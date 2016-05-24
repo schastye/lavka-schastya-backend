@@ -1,0 +1,4 @@
+key: typo.forced_root_block
+value: p
+namespace: typomce
+area: cleanup-output

@@ -1,0 +1,11 @@
+id: 2
+type: number
+name: good-line
+caption: 'Количество строк'
+category: Товар
+elements: ''
+default_text: ''
+properties: null
+input_properties: 'a:0:{}'
+output_properties: 'a:0:{}'
+content: ''

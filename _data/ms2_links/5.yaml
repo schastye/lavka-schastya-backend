@@ -1,0 +1,4 @@
+id: 5
+type: many_to_many
+name: 'С этим товаром покупают'
+description: ''

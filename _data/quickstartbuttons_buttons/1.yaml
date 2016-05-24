@@ -1,12 +1,14 @@
 id: 1
 set: 1
-icon: 606
+icon: 103
+icon_ms: null
 icon_file: null
-text: 'Open the Quickstart Buttons documentation'
-description: 'Click here to review the documentation of modmores'' Quickstart Buttons'
-action_props: null
+text: Заказы
+description: 'Управление заказами «Лавки»'
+action_id: null
+action_key: null
+action_props: ''
 handler: null
-link: 'http://www.modmore.com/extras/quickstartbuttons/documentation/'
-newwindow: 1
-iconcls: icon-modmore
+link: '?a=mgr/orders&namespace=minishop2'
+iconcls: fa-cart-plus
 iconpath: ''

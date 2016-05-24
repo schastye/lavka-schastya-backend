@@ -1,0 +1,4 @@
+key: typo.use_uncompressed_library
+xtype: combo-boolean
+namespace: typomce
+area: general

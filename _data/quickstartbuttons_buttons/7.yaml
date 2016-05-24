@@ -1,0 +1,12 @@
+id: 7
+set: 1
+icon: 434
+icon_file: null
+text: 'Очистка кэша'
+description: 'Если не отображаются изменения'
+action_props: ''
+handler: MODx.clearCache();
+link: null
+ranking: 7
+iconcls: fa-refresh
+iconpath: ''

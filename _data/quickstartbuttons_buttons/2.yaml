@@ -1,0 +1,15 @@
+id: 2
+set: 1
+icon: 78
+icon_ms: null
+icon_file: null
+text: 'Настройки магазина'
+description: 'Варианты доставки, способы оплаты, статусы заказа'
+action_id: null
+action_key: null
+action_props: ''
+handler: null
+link: '?a=mgr/settings&namespace=minishop2'
+ranking: 2
+iconcls: fa-building
+iconpath: ''

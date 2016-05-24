@@ -1,0 +1,6 @@
+id: 7
+key: mirSMS__order_paid_reject
+label: 'Сообщение об отмене заказа'
+xtype: textarea
+description: ''
+group: 4

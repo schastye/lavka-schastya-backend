@@ -1,0 +1,12 @@
+id: 4
+set: 1
+icon: 146
+icon_file: null
+text: Настройки
+description: 'Основные параметры сайта'
+action_props: ''
+handler: null
+link: '?a=2'
+ranking: 99
+iconcls: fa-cogs
+iconpath: ''

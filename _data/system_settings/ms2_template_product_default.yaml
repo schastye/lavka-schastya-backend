@@ -1,4 +1,5 @@
 key: ms2_template_product_default
+value: '4'
 xtype: modx-combo-template
 namespace: minishop2
 area: ms2_product

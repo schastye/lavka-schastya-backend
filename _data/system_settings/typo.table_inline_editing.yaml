@@ -1,0 +1,4 @@
+key: typo.table_inline_editing
+xtype: combo-boolean
+namespace: typomce
+area: general

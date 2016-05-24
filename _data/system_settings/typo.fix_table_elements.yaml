@@ -1,0 +1,4 @@
+key: typo.fix_table_elements
+xtype: combo-boolean
+namespace: typomce
+area: cleanup-output

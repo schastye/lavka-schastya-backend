@@ -1,4 +1,5 @@
 key: ms2_product_id_as_alias
+value: '0'
 xtype: combo-boolean
 namespace: minishop2
 area: ms2_product

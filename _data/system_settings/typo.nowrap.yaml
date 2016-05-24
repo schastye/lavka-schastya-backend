@@ -1,0 +1,4 @@
+key: typo.nowrap
+xtype: combo-boolean
+namespace: typomce
+area: cleanup-output

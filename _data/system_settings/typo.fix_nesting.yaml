@@ -1,0 +1,4 @@
+key: typo.fix_nesting
+xtype: combo-boolean
+namespace: typomce
+area: cleanup-output

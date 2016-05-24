@@ -1,0 +1,14 @@
+id: 52
+article: '1000'
+price: !!float 1000
+old_price: !!float 9000
+weight: 0.6
+image: null
+thumb: null
+new: 1
+popular: 1
+favorite: 1
+tags: '["\u043c\u0443\u043a\u0430,","\u0441\u0430\u0445\u0430\u0440"]'
+color: '["\u0426\u0432\u0435\u0442"]'
+size: '[""]'
+source: 2

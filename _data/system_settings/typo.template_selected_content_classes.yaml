@@ -1,0 +1,4 @@
+key: typo.template_selected_content_classes
+xtype: textarea
+namespace: typomce
+area: general

@@ -1,0 +1,4 @@
+key: typo.indentation
+value: 30px
+namespace: typomce
+area: cleanup-output

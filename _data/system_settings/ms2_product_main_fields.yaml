@@ -1,5 +1,5 @@
 key: ms2_product_main_fields
-value: 'pagetitle,longtitle,introtext,price,old_price,article,weight,content,publishedon,pub_date,unpub_date,template,parent,alias,menutitle,searchable,cacheable,richtext,uri_override,uri,hidemenu,show_in_tree'
+value: 'pagetitle,longtitle,introtext,price,old_price,article,weight,new,popular,favorite,tags,content,publishedon,pub_date,unpub_date,template,parent,alias,menutitle,searchable,cacheable,richtext,uri_override,uri,hidemenu,show_in_tree'
 xtype: textarea
 namespace: minishop2
 area: ms2_product

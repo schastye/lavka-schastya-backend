@@ -1,0 +1,4 @@
+key: typo.entity_encoding
+value: named
+namespace: typomce
+area: cleanup-output

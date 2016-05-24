@@ -1,4 +1,4 @@
 key: friendly_alias_realtime
-value: '1'
+value: '0'
 xtype: combo-boolean
 area: furls

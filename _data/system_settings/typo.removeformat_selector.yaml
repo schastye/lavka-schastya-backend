@@ -1,0 +1,4 @@
+key: typo.removeformat_selector
+value: 'b,strong,em,i,span,ins'
+namespace: typomce
+area: cleanup-output

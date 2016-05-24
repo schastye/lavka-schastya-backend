@@ -1,0 +1,12 @@
+id: 5
+set: 1
+icon: 38
+icon_file: null
+text: Перелинковка
+description: 'Управление устаревшими ссылками'
+action_props: ''
+handler: null
+link: '?a=4'
+ranking: 4
+iconcls: fa-arrows-h
+iconpath: ''

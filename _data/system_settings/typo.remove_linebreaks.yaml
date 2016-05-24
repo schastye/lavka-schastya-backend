@@ -1,0 +1,4 @@
+key: typo.remove_linebreaks
+xtype: combo-boolean
+namespace: typomce
+area: cleanup-output

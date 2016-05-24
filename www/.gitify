@@ -272,3 +272,4 @@ packages:
       - autoredirector-0.1.0-beta
       - ytranslit-1.2.0-pl
       - debugparser-1.1.0-pl
+      - typomce-4.4.0-pl1

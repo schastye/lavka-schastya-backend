@@ -1,0 +1,6 @@
+id: 6
+key: mirSMS__order_paid_success
+label: 'Сообщение об успешной оплате'
+xtype: textarea
+description: ''
+group: 4

@@ -1,0 +1,15 @@
+id: 3
+set: 1
+icon: 186
+icon_ms: null
+icon_file: null
+text: 'Форма обратной связи'
+description: 'Сообщения с формы обратной связи'
+action_id: null
+action_key: null
+action_props: ''
+handler: null
+link: '?a=1'
+ranking: 3
+iconcls: fa-envelope-o
+iconpath: ''

@@ -1,0 +1,8 @@
+id: 3
+key: decor__footer-tags
+label: 'Список тегов в «Подвале»'
+xtype: textfield
+description: ''
+sortorder: 10
+value: 'УСчастьяЕстьВкус СчастьеЕсть ВкусСчастья'
+group: 3

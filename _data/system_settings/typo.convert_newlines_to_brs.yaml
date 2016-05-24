@@ -1,0 +1,4 @@
+key: typo.convert_newlines_to_brs
+xtype: combo-boolean
+namespace: typomce
+area: cleanup-output

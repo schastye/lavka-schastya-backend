@@ -1,0 +1,4 @@
+id: 3
+type: one_to_many
+name: 'Сборный товар'
+description: ''

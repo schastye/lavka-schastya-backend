@@ -1,0 +1,10 @@
+id: 11
+set: 1
+action: resource/update
+name: longtitle
+description: null
+container: modx-panel-resource
+rule: fieldTitle
+value: 'Номер телефона'
+constraint_class: modResource
+rank: 4
