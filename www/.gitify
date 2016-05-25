@@ -273,9 +273,9 @@ packages:
     credential_file: '../.modstore-pro.key'
     packages:
       - pdotools-2.4.0-pl
-      - minishop2-2.4.0-beta2
-      # - shopstats-1.0.0-beta
       - autoredirector-0.1.0-beta
       - ytranslit-1.2.0-pl
       - debugparser-1.1.0-pl
       - typomce-4.4.0-pl1
+      - minishop2-2.4.0-beta2
+      - shopstats-1.0.0-beta
