@@ -1,4 +1,4 @@
-id: 4
+id: 3
 source: 1
 name: autoRedirector
 category: autoRedirector

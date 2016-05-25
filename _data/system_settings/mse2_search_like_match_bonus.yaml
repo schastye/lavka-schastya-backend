@@ -1,5 +1,0 @@
-key: mse2_search_like_match_bonus
-value: '3'
-xtype: numberfield
-namespace: msearch2
-area: mse2_search

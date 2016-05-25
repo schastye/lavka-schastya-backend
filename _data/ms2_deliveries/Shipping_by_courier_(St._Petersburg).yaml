@@ -2,8 +2,6 @@ id: 2
 name: 'Доставка курьером (Санкт-Петербург)'
 description: 'Доставка курьером в течение 3 часов. Стоимость: 350 руб.'
 price: '350'
-weight_price: !!float 0
-distance_price: !!float 0
 logo: ''
 rank: 1
 class: ''

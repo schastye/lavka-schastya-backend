@@ -1,8 +1,6 @@
 id: 1
 name: Самовывоз
 description: null
-weight_price: !!float 0
-distance_price: !!float 0
 logo: null
 class: null
 properties: null

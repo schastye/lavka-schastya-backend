@@ -1,4 +1,0 @@
-key: mse2_index_split_words
-value: '#\s|[,.:;!?"''(){}\/\#]#u'
-namespace: msearch2
-area: mse2_index

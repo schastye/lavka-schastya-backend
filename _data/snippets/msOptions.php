@@ -8,8 +8,8 @@ static_file: core/components/minishop2/elements/snippets/snippet.ms_options.php
 
 -----
 
-/* @var array $scriptProperties */
-/* @var pdoFetch $pdoFetch */
+/** @var array $scriptProperties */
+/** @var pdoFetch $pdoFetch */
 if (!$modx->loadClass('pdofetch', MODX_CORE_PATH . 'components/pdotools/model/pdotools/', false, true)) {return false;}
 $pdoFetch = new pdoFetch($modx, $scriptProperties);
 

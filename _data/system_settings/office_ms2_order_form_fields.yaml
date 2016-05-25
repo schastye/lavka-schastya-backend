@@ -1,5 +1,0 @@
-key: office_ms2_order_form_fields
-value: 'num,cart_cost,delivery_cost,weight,payment,delivery'
-xtype: textarea
-namespace: office
-area: office_ms2

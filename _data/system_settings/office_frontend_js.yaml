@@ -1,4 +1,0 @@
-key: office_frontend_js
-value: '[[++assets_url]]components/office/js/main/default.js'
-namespace: office
-area: office_main

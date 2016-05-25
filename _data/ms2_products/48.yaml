@@ -1,8 +1,5 @@
 id: 48
 article: null
-price: !!float 0
-old_price: !!float 0
-weight: !!float 0
 image: null
 thumb: null
 tags: null

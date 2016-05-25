@@ -8,12 +8,12 @@ static_file: core/components/minishop2/elements/snippets/snippet.ms_product_opti
 
 -----
 
-/* @var array $scriptProperties */
-/* @var miniShop2 $miniShop2 */
-$miniShop2 = $modx->getService('minishop2');
+/** @var array $scriptProperties */
+/** @var miniShop2 $miniShop2 */
+$miniShop2 = $modx->getService('miniShop2');
 $miniShop2->initialize($modx->context->key);
 
-/* @var pdoFetch $pdoFetch */
+/** @var pdoFetch $pdoFetch */
 if (!$modx->loadClass('pdofetch', MODX_CORE_PATH . 'components/pdotools/model/pdotools/', false, true)) {return false;}
 $pdoFetch = new pdoFetch($modx, $scriptProperties);
 

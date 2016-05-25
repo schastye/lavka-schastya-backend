@@ -1,5 +1,0 @@
-key: mse2_index_comments_weight
-value: '1'
-xtype: numberfield
-namespace: msearch2
-area: mse2_index

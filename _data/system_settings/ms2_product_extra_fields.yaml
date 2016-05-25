@@ -1,4 +1,5 @@
 key: ms2_product_extra_fields
+value: 'price,old_price,article,weight,color,size,vendor,made_in,tags,new,popular,favorite'
 xtype: textarea
 namespace: minishop2
 area: ms2_product

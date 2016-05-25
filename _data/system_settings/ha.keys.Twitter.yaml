@@ -1,4 +1,0 @@
-key: ha.keys.Twitter
-value: '{"key":"12345","secret":"12345"}'
-namespace: hybridauth
-area: ha.keys

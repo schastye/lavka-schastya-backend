@@ -1,4 +1,4 @@
-id: 10
+id: 5
 source: 1
 name: TypoMCE
 description: 'TypoMCE 4.4.0-pl1 plugin for MODx Revolution'

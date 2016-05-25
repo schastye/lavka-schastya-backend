@@ -1,5 +1,0 @@
-key: office_auth_page_id
-value: '0'
-xtype: numberfield
-namespace: office
-area: office_auth

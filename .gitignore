@@ -2,3 +2,4 @@
 !/www/.gitify
 !/_data/
 !.gitignore
+.DS_Store

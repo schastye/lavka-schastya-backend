@@ -1,11 +1,8 @@
 id: 45
 article: ''
-price: !!float 0
-old_price: !!float 0
-weight: !!float 0
 image: null
 thumb: null
-tags: '[""]'
-color: '[""]'
-size: '[""]'
+tags: null
+color: null
+size: null
 source: 2

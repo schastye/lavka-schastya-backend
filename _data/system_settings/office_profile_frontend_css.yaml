@@ -1,4 +1,0 @@
-key: office_profile_frontend_css
-value: '[[++assets_url]]components/office/css/profile/default.css'
-namespace: office
-area: office_profile

@@ -28,7 +28,9 @@ data:
       - modTemplateVarResource
   categories:
     class: modCategory
-    primary: category
+    primary:
+      - id
+      - category
     truncate_on_force:
       - modCategoryClosure
   templates:
@@ -145,6 +147,10 @@ data:
     exclude_keys:
       - createdon
       - editedon
+
+  content_type:
+    class: modContentType
+    primary: name
 
 # Packages list
 
@@ -267,8 +273,8 @@ packages:
     credential_file: '../.modstore-pro.key'
     packages:
       - pdotools-2.4.0-pl
-      - minishop2-2.4.0-beta1
-      - shopstats-1.0.0-beta
+      - minishop2-2.4.0-beta2
+      # - shopstats-1.0.0-beta
       - autoredirector-0.1.0-beta
       - ytranslit-1.2.0-pl
       - debugparser-1.1.0-pl

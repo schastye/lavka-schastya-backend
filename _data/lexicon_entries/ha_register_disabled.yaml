@@ -1,5 +1,0 @@
-id: 1
-name: ha_register_disabled
-value: 'You must first bind this social network to your account!'
-namespace: hybridauth
-language: ru

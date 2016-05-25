@@ -8,8 +8,8 @@ static_file: core/components/minishop2/elements/snippets/snippet.ms_minicart.php
 
 -----
 
-/* @var miniShop2 $miniShop2 */
-$miniShop2 = $modx->getService('minishop2');
+/** @var miniShop2 $miniShop2 */
+$miniShop2 = $modx->getService('miniShop2');
 $miniShop2->initialize($modx->context->key);
 
 $cart = $miniShop2->cart->status();
